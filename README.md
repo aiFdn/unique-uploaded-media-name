@@ -10,7 +10,7 @@ Author: Sazzad Hossain Sharkar
  
 Author URI: <https://github.com/shsbd>
 
-**Features**
+## Features
 
 * Adds unique suffix at the end of the uploaded file name. e.g.: test-image-`311629-W3dRonmw`.jpg
 * Generated strings are very unique and less possibility of confliction
@@ -22,6 +22,14 @@ Author URI: <https://github.com/shsbd>
 * Single file `less than 3KB`
 * Open source license, modify and distribute with your own. `GNU GPLv3`
 * Tested with `WordPress 4.9.4`
+
+## Download Source Code
+Download from, <https://github.com/aifdn/unique-uploaded-media-name/archive/master.zip>
+
+## Installation
+
+1. Upload the entire `unique-uploaded-media-name` folder to the `/wp-content/plugins/` directory. (If the folder name changes, rename the folder name with your own.)
+2. Activate the plugin through the ‘Plugins’ menu in WordPress.
 
 ## Contribution
 
