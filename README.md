@@ -10,6 +10,10 @@ Author: Sazzad Hossain Sharkar
  
 Author URI: <https://github.com/shsbd>
 
+## Screenshot
+
+![Screenshot](screenshot.png)
+
 ## Features
 
 * Adds unique suffix at the end of the uploaded file name. e.g.: test-image-`311629-W3dRonmw`.jpg
@@ -38,3 +42,7 @@ If you would like to add some extra features, just fork the repository, edit and
 ## I have questions to ask
 
 Just send an email to <mailto:sharkar@akhaura.info> . I will be happy to answer your queries.
+
+## License
+
+[GNU General Public License v3.0](LICENSE)
