@@ -42,7 +42,7 @@ If you would like to add some extra features, just fork the repository, edit and
 
 ## I have questions to ask
 
-Just send an email to <mailto:sharkar@akhaura.info> . I will be happy to answer your queries.
+Just send an email to [sharkar@akhaura.info](mailto:sharkar@akhaura.info) . I will be happy to answer your queries.
 
 ## License
 
