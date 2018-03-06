@@ -6,7 +6,7 @@
  * Description: Unique uploaded media names by adding some extra random string
  * Author: Sazzad Hossain Sharkar
  * Author URI: https://github.com/shsbd
- * Version: 1.0
+ * Version: 1.0.3
  * License: GPLv3
  */
 
