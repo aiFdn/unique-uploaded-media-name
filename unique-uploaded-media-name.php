@@ -7,7 +7,7 @@
  * Author: Sazzad Hossain Sharkar
  * Author URI: https://github.com/shsbd
  * Version: 1.0.3
- * License: GPLv3
+ * License: GPLv2 or later
  */
 
 class UniqueUploadedMediaName {
