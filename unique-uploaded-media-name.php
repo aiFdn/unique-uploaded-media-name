@@ -93,7 +93,6 @@ function unique_uploaded_media_name($filename) {
 
 	$sanitized_filename = str_replace(array_keys($invalid), array_values($invalid), $sanitized_filename);
 
-	$sanitized_filename = preg_replace('/[^A-Za-z0-9-\. ]/', '', $sanitized_filename);
 	$sanitized_filename = preg_replace('/\.(?=.*\.)/', '', $sanitized_filename);
 	$sanitized_filename = preg_replace('/-+/', '-', $sanitized_filename);
 	$sanitized_filename = str_replace('-.', '.', $sanitized_filename);
