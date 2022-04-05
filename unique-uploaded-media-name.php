@@ -102,8 +102,17 @@ function unique_uploaded_media_name($filename) {
 	$info = pathinfo($filename);
 	$ext  = empty($info['extension']) ? '' : '.' . $info['extension'];
 	$name = basename($sanitized_filename, $ext);
-
-	return $name . '-' . UniqueUploadedMediaName::stringTen() . $ext;
+	
+	// These extensions are picked accroding to https://wordpress.com/support/accepted-filetypes
+	$media_extensions = ['jpg', 'jpeg', 'png', 'ico', 'gif', 'webp', 'svg', 'mp3', 'm4a', 'ogg', 'wav', 'mp4', 'm4v', 'mov', 'wmv', 'avi', 'mpg', 'ogv', '3gp', '3g2', 'vtt'];
+	
+	foreach ($media_extensions as &$value) {
+		if ($info['extension'] == $value) {
+			return $name . '-' . UniqueUploadedMediaName::stringTen() . $ext;
+		}
+	}
+	
+	return $name . $ext;
 }
 
 add_filter('sanitize_file_name', 'unique_uploaded_media_name', 10);
